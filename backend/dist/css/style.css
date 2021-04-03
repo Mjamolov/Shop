@@ -1,0 +1,10 @@
+#access-table {
+    width: 100%;
+}
+
+.error {
+    padding: 20px;
+    background-color: #f6cdd1;
+    border: 1px solid #f1b0b7;
+    margin: 10px;
+}
