@@ -77,6 +77,7 @@ class BasketController
 
     public function change()
     {
+        print_r((int)$_POST['product_id'], $this->basket['id'], (int)$_POST['quantity']);
         $this->basketService->updateBasketItem((int)$_POST['product_id'], $this->basket['id'], (int)$_POST['quantity']);
 
         $this->redirectToBasket();

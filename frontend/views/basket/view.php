@@ -42,7 +42,7 @@ include_once __DIR__ . "/../header.php";
                             <form action="/php/Shop(stream13)/frontend/index.php?model=basket&action=change"
                                   method="post">
                                 <input type="hidden" name="product_id" value="<?= $item['product']['id'] ?>">
-                                <input type="text" name="qty" value="<?= $item['quantity'] ?>">
+                                <input type="text" name="quantity" value="<?= $item['quantity'] ?>">
                                 <input type="submit" value="Change">
                             </form>
                         </td>
